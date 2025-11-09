@@ -26,7 +26,7 @@ public class User {
     @Nullable
     private Long id;
 
-    @Column(name = "birthdate", nullable = false)
+    @Column(name = "birthday", nullable = false)
     private LocalDate birthdate;
 
     @Column(nullable = false, unique = true)
